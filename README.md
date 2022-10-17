@@ -8,3 +8,4 @@
 ## Live Website URL
 https://preloader-for-website.netlify.app/
 
+<img src ="1.gif">
