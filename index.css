@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F1F2F3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loader img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.disappear
+{
+    animation:  vanish 1s forwards;
+}
+
+.content_img
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.content_img img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  
+    
+}
+
+@keyframes vanish
+{
+
+100%
+{
+    opacity: 0;
+    visibility: hidden;
+}
+
+}
